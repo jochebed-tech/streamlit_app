@@ -259,7 +259,7 @@ with tab2:
                 "{selected_scenario['bad']}"
             </p>
         </div>
-        """, unsafe_allow_scope=True)
+        """, unsafe_allow_html=True)
         
     with col_good:
         st.markdown(f"""
@@ -295,7 +295,7 @@ with tab3:
             <h3>🎉 우리 아이는 <span style="color: #FF1493;">[{res}]</span> 성향과 가깝습니다!</h3>
             <p>사이드바에서 해당 성향이 포함된 그룹을 선택하여 맞춤 대화법을 확인해 보세요.</p>
         </div>
-        """, unsafe_allow_scope=True)
+        """, unsafe_allow_html=True)
 
 # 푸터
 st.divider()
