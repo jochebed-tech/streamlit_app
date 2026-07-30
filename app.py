@@ -184,7 +184,7 @@ st.markdown("""
         <h1>🧸 말랑말랑 MBTI 육아 대화법</h1>
         <p>우리 아이의 마음 문을 열어주는 맞춤형 훈육 솔루션</p>
     </div>
-""", unsafe_allow_scope=True)
+""", unsafe_allow_html=True)
 
 # 5. 사이드바 - MBTI 선택
 with st.sidebar:
@@ -269,9 +269,9 @@ with tab2:
                 "{selected_scenario['good']}"
             </p>
         </div>
-        """, unsafe_allow_scope=True)
+        """, unsafe_allow_html=True)
 
-    st.markdown("<br>", unsafe_allow_scope=True)
+    st.markdown("<br>", unsafe_allow_html=True)
     st.success("💖 **훈육 꿀팁**: 아이가 감정적으로 격양되어 있을 때는 대화법보다 '안전한 장소에서 감정이 가라앉을 때까지 기다려주는 것'이 먼저입니다.")
 
 # TAB 3: 아이 MBTI 간단 진단
