@@ -232,7 +232,7 @@ with tab1:
                 <h3>0{idx+1}</h3>
                 <p>{tip}</p>
             </div>
-            """, unsafe_allow_scope=True)
+            """, unsafe_allow_html=True)
 
     if parent_mbti != "잘 모르겠음":
         st.info(f"💡 **{parent_mbti} 부모님을 위한 조언**: 부모님의 성향과 아이의 성향이 다를 수 있어요. 부모님의 기준을 적용하기보다 아이의 시선에서 한 번 더 생각해 주시면 훈육 효과가 2배가 됩니다!")
