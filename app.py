@@ -221,7 +221,7 @@ with tab1:
         <h4>💡 아이의 성향 특징</h4>
         <p>{group_info['traits']}</p>
     </div>
-    """, unsafe_allow_scope=True)
+    """, unsafe_allow_html=True)
     
     st.subheader("🎯 이 유형의 아이를 다룰 때 핵심 원칙")
     col1, col2, col3 = st.columns(3)
