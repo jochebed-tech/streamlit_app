@@ -80,7 +80,7 @@ st.markdown("""
         color: white !important;
     }
     </style>
-""", unsafe_allow_scope=True)
+""", unsafe_allow_html=True)
 
 # 3. 데이터베이스 (MBTI별 특성 및 훈육법)
 MBTI_DATA = {
